@@ -12,7 +12,7 @@
  * +----------------------------------------------------------------------
  * | Author: hahadu <582167246@qq.com>
  * +----------------------------------------------------------------------
- * | Date: 2021/2/25 下午1:53
+ * | Date: 2021/2/25 下午3:53
  * +----------------------------------------------------------------------
  * | Description: wangEditor 源代码编辑器
  * +----------------------------------------------------------------------
@@ -57,12 +57,12 @@ class viewEditCode extends window.wangEditor.BtnMenu {
             var btnFontStyle = "<li class='fa fa-code'></li>";
         } else {
             var isIncludeFontFile = false;
-            var btnFontStyle = "&rlhar;";
+            var btnFontStyle = "&nleftrightarrow;";
         }
 
         // data-title属性表示当鼠标悬停在该按钮上时提示该按钮的功能简述
         const $elem = window.wangEditor.$(
-            '<div class="w-e-menu" data-title="源码编辑模式"> ' + btnFontStyle + ' </div>'
+            '<div class="w-e-menu" data-title="源码编辑模式">' + btnFontStyle + ' </div>'
         );
         super($elem, editor);
         this.isIncludeFontFile = isIncludeFontFile;
