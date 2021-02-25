@@ -29,7 +29,7 @@ class viewEditCode extends window.wangEditor.BtnMenu {
     }
     appendXmp(txt){
         console.log('进入源码编辑模式');
-        return txt.html('<xmp>' + txt.html() + '</xmp>');
+        return txt.html('<xmp style="white-space:normal;">' + txt.html() + '</xmp>');
     }
     delXmp(txt){
 
