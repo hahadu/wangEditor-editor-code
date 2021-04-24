@@ -15,7 +15,7 @@ yarn add @hahadu/wangeditor-editcode
 
 ```javascript
 
-import { viewEditCode } from "@hahadu/wangEditor-editCode"
+import { viewEditCode } from "@hahadu/wangeditor-editcode"
 ```
 
 
