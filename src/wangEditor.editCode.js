@@ -86,7 +86,7 @@ const _editCodeMenuKey = 'editCodeMenuKey'
 
 window.wangEditor.registerMenu(_editCodeMenuKey, viewEditCode)
 
-export { viewEditCode }
+export { viewEditCode, _editCodeMenuKey }
 
 /****
  * 检查

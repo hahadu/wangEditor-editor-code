@@ -1,0 +1,27 @@
+{
+  "name": "@hahadu/wangeditor-editcode",
+  "version": "0.0.1",
+  "description": "wangEditor edit code plugin",
+  "main": "src/wangEditor.editCode.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahadu/wangEditor-editor-code.git"
+  },
+  "keywords": [
+    "wangEditor",
+    "edit",
+    "code"
+  ],
+  "author": "hahadu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hahadu/wangEditor-editor-code/issues"
+  },
+  "homepage": "https://github.com/hahadu/wangEditor-editor-code#readme"
+}
