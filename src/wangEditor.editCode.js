@@ -86,6 +86,8 @@ const _editCodeMenuKey = 'editCodeMenuKey'
 
 window.wangEditor.registerMenu(_editCodeMenuKey, viewEditCode)
 
+export { viewEditCode }
+
 /****
  * 检查
  * @param name
